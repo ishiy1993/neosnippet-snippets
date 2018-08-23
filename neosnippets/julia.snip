@@ -1,0 +1,70 @@
+snippet     module
+abbr        module ... end
+  module ${1}
+    ${0}
+  end
+
+snippet     function
+abbr        function ...(...) ... end
+  function ${1}(${2})
+    ${0}
+  end
+
+snippet     begin
+abbr        begin ... end
+  begin
+    ${0}
+  end
+
+snippet     if
+abbr        if ... end
+  if ${1}
+    ${0}
+  end
+
+snippet     elseif
+abbr        elseif ...
+  elseif ${1}
+    ${0}
+
+snippet     while
+abbr        while ... end
+  while ${1}
+    ${0}
+  end
+
+snippet     for
+abbr        for ... end
+  for ${1}
+    ${0}
+  end
+
+snippet     trycatch
+abbr        try ... catch ... end
+  try
+    ${1}
+  catch ${2}
+    ${3}
+  end
+
+snippet     tryfinally
+abbr        try ... finally ... end
+  try
+    ${1}
+  finally
+    ${2}
+  end
+
+snippet     abstracttype
+abbr        abstract type ... end
+  abstract type ${1} end
+
+snippet     primitivetype
+abbr        primitive type ... end
+  primitive type ${1} end
+
+snippet     struct
+abbr        struct ... end
+  struct ${1}
+    ${0}
+  end
